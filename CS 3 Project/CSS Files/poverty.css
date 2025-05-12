@@ -1,0 +1,158 @@
+body
+{
+  background-color: oldlace;
+}
+
+article 
+{ 
+  padding: 5px; border: outset crimson; margin-top: 5px;
+}
+
+header
+{
+  padding: 0px; text-align: center;
+}
+
+h1 
+{
+  text-align: center;
+  font-color: maroon;
+  font-family: Times New Roman; 
+  font-size: 32px;
+  font-style: normal;
+  border-style: inset;
+  border-color: crimson;
+  width: 120px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example
+{
+   0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: violet;}
+}
+
+h1:hover 
+{
+  width: 300px;
+}
+
+video
+{
+  width: 640px;
+  height: 480px;
+}
+
+/* unvisited link */
+a:link 
+{
+  color: red;
+}
+
+/* visited link */
+a:visited 
+{
+  color: green;
+}
+
+/* mouse over link */
+a:hover 
+{
+  color: blue;
+}
+
+h2 
+{
+  text-align: justify;
+  font-color: maroon;
+  font-family: Times New Roman; 
+  font-size: 28px;
+  font-style: normal;
+  border-style: inset;
+  border-color: crimson;
+}
+
+h3 
+{
+  text-align: justify;
+  font-color: maroon;
+  font-family: Times New Roman; 
+  font-size: 25px;
+  font-style: normal;
+  border-style: inset;
+  border-color: crimson;
+}
+
+p
+{
+  text-align: justify;
+  font-color: saddlebrown;
+  text-indent: 50px;
+  font-family: Arial;
+  font-size: 21px;
+  font-style: normal;
+}
+
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a 
+{
+  height: 44px;
+  display: block;
+}
+
+#home 
+{
+  left: 0px;
+  width: 46px;
+  background: url('img_navsprites_hover.gif') 0 0;
+}
+
+#prev 
+{
+  left: 63px;
+  width: 43px;
+  background: url('img_navsprites_hover.gif') -47px 0;
+}
+
+#next 
+{
+  left: 129px;
+  width: 43px;
+  background: url('img_navsprites_hover.gif') -91px 0;
+}
+
+#home a:hover 
+{
+  background: url('img_navsprites_hover.gif') 0 -45px;
+}
+
+#prev a:hover 
+{
+  background: url('img_navsprites_hover.gif') -47px -45px;
+}
+
+#next a:hover 
+{
+  background: url('img_navsprites_hover.gif') -91px -45px;
+}

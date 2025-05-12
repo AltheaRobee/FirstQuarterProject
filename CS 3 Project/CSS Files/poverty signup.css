@@ -1,0 +1,77 @@
+body 
+{
+  font-family: Arial, sans-serif;
+  background-color: #f4f4fb;
+  margin: 0;
+  padding: 0;
+}
+header 
+{
+  background-color: #6a1b9a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.logo 
+{
+  height: 60px;
+}
+.tagline 
+{
+  font-style: italic;
+}
+form 
+{
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+label 
+{
+  display: block;
+  margin: 10px 0 5px;
+}
+input, textarea 
+{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button 
+{
+  width: 100%;
+  padding: 10px;
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover 
+{
+  background-color: #4a148c;
+}
+.error 
+{
+  color: red;
+  font-size: 0.9em;
+}
+.radio-group 
+{
+  margin: 10px 0;
+}
+.profile 
+{
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

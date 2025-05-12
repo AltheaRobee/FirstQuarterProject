@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Profile</title>
+  <link rel="stylesheet" href="poverty signup.css"
+</head>
+<body>
+  <header>
+    <h1>Welcome, <span id="displayName"></span>!</h1>
+  </header>
+
+  <section class="profile">
+    <p><strong>First Name:</strong> <span id="outFirstName"></span></p>
+    <p><strong>Last Name:</strong> <span id="outLastName"></span></p>
+    <p><strong>Email:</strong> <span id="outEmail"></span></p>
+    <p><strong>Sex:</strong> <span id="outSex"></span></p>
+    <p><strong>Why you support us:</strong></p>
+    <p id="outReason"></p>
+  </section>
+
+  <script>
+    document.getElementById('displayName').innerText = localStorage.getItem('firstName');
+    document.getElementById('outFirstName').innerText = localStorage.getItem('firstName');
+    document.getElementById('outLastName').innerText = localStorage.getItem('lastName');
+    document.getElementById('outEmail').innerText = localStorage.getItem('email');
+    document.getElementById('outSex').innerText = localStorage.getItem('sex');
+    document.getElementById('outReason').innerText = localStorage.getItem('reason');
+  </script>
+
+<a href="poverty signup.html">Go Back to Page 5</a>
+<a href="poverty.html">Go Back to Page 1</a>
+</body>
+</html>

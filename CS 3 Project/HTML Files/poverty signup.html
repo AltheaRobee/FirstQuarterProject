@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eliminating Poverty Campaign - Sign Up</title>
+  <link rel="stylesheet" href="poverty signup.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Site Logo" class="logo">
+    <h1>EqualVoice</h1>
+    <p class="tagline">Eliminating Poverty through Advocacy and Action.</p>
+  </header>
+
+  <form id="signupForm">
+    <h2>Join the Campaign</h2>
+
+    <label>First Name*<input type="text" id="firstName"></label><span class="error" id="errFirst"></span>
+    <label>Last Name*<input type="text" id="lastName"></label><span class="error" id="errLast"></span>
+
+    <div class="radio-group">
+      <label>Sex*:</label>
+      <label><input type="radio" name="sex" value="Male"> Male</label>
+      <label><input type="radio" name="sex" value="Female"> Female</label>
+      <label><input type="radio" name="sex" value="Prefer not to say"> Prefer not to say</label>
+      <span class="error" id="errSex"></span>
+    </div>
+
+    <label>Email Address*<input type="email" id="email"></label><span class="error" id="errEmail"></span>
+    <label>Password*<input type="password" id="password"></label><span class="error" id="errPass"></span>
+    <label>Contact Number<input type="text" id="contact"></label>
+    <label>Why you’re supporting our campaign*<textarea id="reason"></textarea></label><span class="error" id="errReason"></span>
+
+    <button type="submit">Eliminate Poverty Now</button>
+  </form>
+
+  <script src="poverty signup.js"></script>
+
+<a href="poverty quiz.html">Go Back to Page 4</a>
+<a href="poverty profile.html">Go to Page 6</a>
+</body>
+</html>
